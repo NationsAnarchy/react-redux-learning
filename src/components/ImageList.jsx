@@ -11,7 +11,7 @@ function ImageList({ images }) {
 		<div>
 			<h1 className='font-bold'>Image List</h1>
 			<h2>Number of images: <span className='italic font-bold'>{images.length}</span></h2>
-			<div className='columns-2 pt-6'>{renderedImages}</div>
+			<div className='columns-4 pt-6'>{renderedImages}</div>
 		</div>
 	)
 }
